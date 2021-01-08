@@ -1,0 +1,499 @@
+body {
+  background-color: #2A241E;
+
+  font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857;
+  
+  color: #898989;
+
+}
+.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 100px;
+  line-height: 20px;
+  padding: 0px;
+}
+ button.btn.btn-primary.informativa{
+background-color: #E6E5D8;
+     color:#2A241E;
+     border-color: #2A241E;
+}
+
+
+
+.navbar-default {
+  background-color: #2A241E;
+  border: 0;
+}
+
+.navbar-right.riquadro li a {
+  border: medium none;
+  padding: 35px 25px;
+  text-transform: lowercase;
+    color:#9a9a9a;
+}
+
+.navbar-right.riquadro li.current-menu-item > a, .navbar-right.riquadro li.sfHover > a, .navbar-right.riquadro li a:hover {
+  background: #72911e none repeat scroll 0 0;
+  color: #fff;
+}
+
+.riquadro li {
+  background: rgba(0, 0, 0, 0) url("img/menu_item_bg.png") repeat scroll 0 0;
+  margin-left: 1px;
+}
+
+.navbar-right.riquadro li.dropdown.open ul.dropdown-menu li {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-top: 0px solid #6c6c6c;
+  margin: 0;
+  padding: 8px 0;
+  width: 100%;
+}
+
+
+.navbar-right.riquadro li.dropdown.open ul.dropdown-menu li a{
+  background: rgba(0, 0, 0, 0) url("img/menu_item_bg.png") repeat scroll 0 0;
+  border-top: 1px solid #6c6c6c;
+  margin: 0;
+  padding: 8px 0;
+  width: 100%;
+}
+
+.navbar-right.riquadro li .dropdown-menu::before {
+    content: "";
+    height: 5px;
+    left: 23px;
+    position: absolute;
+    top: -5px;
+    width: 9px;
+}
+.navbar-right.riquadro li .dropdown-menu {
+    background: #2f2a26 none repeat scroll 0 0;
+    margin: 0;
+    padding: 8px 0;
+    width: auto;
+}
+
+
+.dropdown-menu {
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+  display: none;
+  float: left;
+  font-size: 14px;
+  left: 0;
+  list-style: outside none none;
+  margin: 2px 0 0;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  z-index: 1000;
+}
+
+.altrepagine {
+  border-bottom: 9px solid #72911e;
+  padding-bottom: 13px;
+    border-top: 9px solid #72911e;
+  padding-top: 13px;
+}
+.pagine {
+  
+    border-top: 9px solid #72911e;
+  padding-top: 13px;
+}
+body {
+  padding-top: 30px;
+}
+
+header.carousel {
+  height: 70%;
+}
+.carousel-control.left {
+  background-image: none;
+  background-repeat: repeat-x;
+}
+
+.carousel-control.right {
+  background-image: none;
+  background-repeat: repeat-x;
+  left: auto;
+  right: 0;
+}
+
+.carousel-caption h2{
+font-family: 'Bevan', cursive;
+    font-size: 30px;
+  
+}
+
+.carousel-inner{
+  border: 4px solid #72911e;
+    padding: 3px;
+    background-color: #fff;
+}
+ h1.homep{
+font-family: 'Bevan', cursive;
+    font-size: 40px;
+     text-align:center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+     margin-top:40px;
+     color:#72911e;
+}
+
+h2.titoletto {
+    color: #e6e5d8;
+    font: 28px/48px Bevan;
+
+    border-bottom: 1px solid #4a4540;
+    margin-bottom: 26px;
+    padding-bottom: 18px;
+}
+.mappa{
+  border: 4px solid #ffffff;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom:0;
+    background-color:#F0EDE5;
+    
+}
+
+.tit {
+    color: #fff;
+ font-family: 'Bevan', cursive;
+    font-size:20px;
+text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: 0.08em;
+    margin-bottom:15px;
+   
+}
+
+.verde{
+   color: #72911e;
+    font-size: 25px;
+
+
+   
+}
+.fa {
+
+  font-size: 25px;
+  color: #72911e;
+}
+
+.fascia {
+margin-top:50px;
+ background-color:#E6E5D8;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.foot {
+
+ background-color:#72911e;
+}
+
+footer {
+  margin: 10px 0;
+   color: #ffffff;
+float: none;
+font: bold 14px/20px "Trebuchet MS",Arial,Helvetica,sans-serif;
+text-transform: uppercase;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #E6E5D8;
+  text-decoration: none;
+}
+
+.socials {
+  border-left: 1px solid #d5d5d5;
+    font-family: 'Bevan', cursive;
+    color:#4C4C4C;
+    padding: 10px 0 20px 65px;
+ 
+}
+.indirizzi {
+
+ color: #2e2e2e;
+    font: 12px/20px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    padding-left: 20px;
+    text-transform: uppercase;
+    }
+
+.indirizzi h5{
+
+ font-family: 'Bevan', cursive;
+    font-size:16px;
+    color:#4C4C4C;
+    padding: 10px 0 10px 0px;
+    }
+
+.socials .fa{
+
+ font-size:50px;
+    }
+.statuto{
+
+ font-size:14px;
+    text-align: justify;
+    }
+
+.statuto h4{
+font-family: 'Bevan', cursive;
+ font-size:20px;
+    color:#72911e;
+    
+    }
+.colori{
+ margin: 0 auto;
+  
+    }
+
+.popover-content div.text-justify a{
+color:#72911e;
+  
+    }
+.targa{
+background-color:#fff;
+    margin-bottom:10px;
+    text-align:center;
+     border: 5px solid #72911e;
+    }
+.targa:hover{
+
+   background-color:#E6E5D8;
+    }
+
+.targab{
+background-color:#72911e;
+
+    text-align:center;
+     border: 5px solid #ffffff;
+    color: #fff;
+    font-family: 'Bevan',cursive;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    margin-bottom: 15px;
+        margin-top: 15px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    padding-top:15px;
+    }
+
+.targab.titoloabb{
+  font-family: 'Bevan',cursive;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    margin-bottom: 15px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+.targab button.socio{
+  font-family: 'Bevan',cursive;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    margin-bottom: 15px;
+
+    text-shadow: 0.1em 0.1em 0.2em black;
+    background-color:#72911E;
+    border:0;
+  }
+
+.breadcrumb {
+  background-color: #72911E;
+  border-radius: 4px;
+  list-style: outside none none;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+}
+
+.breadcrumb > .active {
+  color: #2A241E;
+}
+.breadcrumb > li + li::before {
+  color: #2A241E;
+  content: "/ ";
+  padding: 0 5px;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
+  border-bottom-color: #4a4540;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #72911E;
+  border-color: #4a4540 transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+  cursor: default;
+     font-family: 'Bevan', cursive;
+    font-size:25px;
+  
+}
+.nav-justified li a{
+ 
+     font-family: 'Bevan', cursive;
+    font-size:25px;
+  
+}
+.nav-justified li a:hover{
+ 
+    color:#44403c;
+  
+}
+.nav-tabs.nav-justified > li > a {
+  border-bottom: 1px solid #4a4540;
+  border-radius: 4px 4px 0 0;
+    
+}
+
+#myTabContent.tab-content.text-justify{
+ min-height:430px;
+    padding-top:20px;
+}
+
+ h4.modal-title{
+ font-family: 'Bevan', cursive;
+color:#2A241E;
+ }
+
+.targabi {
+  background-color: #2F3A30;
+  border: 5px solid #659B8F;
+  color: #fff;
+  font-family: 'Bevan',cursive;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-top: 15px;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.targabi:hover {
+ 
+  color: #659B8F;
+  font-family: 'Bevan',cursive;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-top: 15px;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.img-thumbnail {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  height: auto;
+  line-height: 1.42857;
+  max-width: 100%;
+  padding: 4px;
+  transition: all 0.2s ease-in-out 0s;
+    margin-bottom:10px;
+}
+
+h3.secondo{
+ font-family: 'Bevan', cursive;
+color:#72911e;
+    font-size:26px;
+ }
+
+h2.page-header.soapp{
+font-family: 'Bevan', cursive;
+color:#72911e;
+    font-size:26px;
+
+
+border-bottom: none;
+}
+
+#cookieChoiceInfo {           /* Imposto le proprietà del banner/dialog box e caratteri del messaggio */
+
+				 
+  font-size: 14px;            /* i caratteri devono essere grandi 16 pixel */
+  color: #2A241E;                /* il colore dei caratteri è grigio chiaro (#DDD) */
+
+border-top: #72911E 1px solid;
+  padding: 10px;              /* lo spazio intorno al messaggio (sopra, sotto e di lato) quindi il bordo dista 10 pixel */  
+  opacity: .9;                /* questa proprietà modifica la trasparenza del banner/dialogbox */
+
+}
+
+#cookieChoiceInfo a{           /* Imposto le proprietà del banner/dialog box e caratteri del messaggio */
+
+				  font-size: 14px;            /* i caratteri devono essere grandi 16 pixel */
+  color: #72911E;                /* il colore dei caratteri è grigio chiaro (#DDD) */
+
+
+}
+
+#cookieChoiceDismiss {        /* Impostiamo per il link "accetto/ok/chiudi" le proprietà per renderlo... */
+			      /* ...visivamente come un pulsante */
+  background-color: #2A241E;     /* lo sfondo è verde (#0A0) */
+  color: #fff;                /* Il colore del testo è bianco (#FFF) */
+  text-decoration: none;      /* Il testo non è sottolineato         */
+  font-weight: 600;           /* Il testo è in grassetto             */
+ 
+  padding: 3px 10px;          /* Imposto lo spazio tra i caratteri e il bordo del pulsante 2pixel sopra e sotto e 10px ai lati */
+  border-radius:  3px;        /* Lo sfondo del pulsante ha i bordi arrotondati con un raggio di 3 pixel */
+}
+
+.modal-content {
+  background-clip: padding-box;
+  background-color: #E6E5D8;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  outline: 0 none;
+  position: relative;
+}
+
+.testoprivacymo {
+    color:#2e2e2e;
+ font-size:13px;
+    text-align:justify;
+    padding:15px;
+}
+
+.testoprivacymo h2{
+ 
+ font-size:20px;
+    margin-top:8px;
+    margin-bottom:8px;
+    color:#2A241E;
+    
+}
+
+.ekko-lightbox-nav-overlay a.glyphicon{
+ 
+
+    color:#2A241E;
+    
+}
+
+.ekko-lightbox-nav-overlay a:hover.glyphicon{
+ 
+
+    color:#659b8f;
+    
+}
